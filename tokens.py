@@ -1,27 +1,3 @@
-from fa.S.ana import ANA
-from fa.S.ani import ANI
-from fa.S.anu import ANU
-from fa.S.ane import ANE
-from fa.S.ano import ANO
-
-from fa.O.sampah import SAMPAH
-from fa.O.sampan import SAMPAN
-from fa.O.sampul import SAMPUL
-from fa.O.samsak import SAMSAK
-from fa.O.samsir import SAMSIR
-
-from fa.P.membaca import MEMBACA
-from fa.P.membakar import MEMBAKAR
-from fa.P.membayar import MEMBAYAR
-from fa.P.membeli import MEMBELI
-from fa.P.membuang import MEMBUANG
-
-from fa.K.di_pasar import DI_PASAR
-from fa.K.di_plaza import DI_PLAZA
-from fa.K.di_TPA import DI_TPA
-from fa.K.di_warteg import DI_WARTEG
-from fa.K.di_warung import DI_WARUNG
-
 class TOKEN_RECOGNIZER:
     def get_lexical(self, word):
         if ANA().valid(word):
